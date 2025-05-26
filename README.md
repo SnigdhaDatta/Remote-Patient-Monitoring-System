@@ -49,4 +49,63 @@ A smart healthcare project integrating **IoT sensors** and **AI models** to enab
 ---
 
 ## 🏗️ System Architecture
+- IoT Sensors → ESP32 → WiFi → Cloud Server / Edge AI → ML Model Inference → Dashboard / Alerts
+
+---
+
+---
+
+## 🚑 Application Areas
+
+- Cardiology (arrhythmia monitoring, pacemaker tracking)
+- Diabetes (CGM data interpretation)
+- Chronic pain (neuromodulation control)
+- ICU and Emergency care (early warnings via LSTM/Random Forest)
+- Mental health (emotion recognition via AI + sensors)
+
+---
+
+## 📉 Sample SpO₂ Trend Analysis
+
+> Time-series visualization of SpO₂ levels collected using the MAX30100 sensor. AI detects gradual drops that may indicate respiratory risk, sending early alerts to caregivers.
+
+---
+
+## ⚠️ Challenges & Considerations
+
+| Challenge | Mitigation |
+|----------|------------|
+| Data Overload | AI-based filtering and compression |
+| Bias in Models | Use of diverse and inclusive training datasets |
+| Privacy | HIPAA/GDPR-compliant platform and federated learning |
+| Workflow Integration | EHR interoperability APIs |
+| Cost | Use of affordable sensors and open-source software |
+
+---
+
+## 🔮 Future Enhancements
+
+- Digital twin simulation of patients
+- Integration with mobile apps for patients and doctors
+- Federated learning for privacy-preserving AI
+- AI in oncology and behavioral health
+- Adaptive wearable implants
+
+---
+
+## 🧾 Citation & References
+
+- Patel et al. (2024) – _Journal of Pain Research_
+- Tsvetanov (2024) – _AI in Chronic Disease RPM Review_
+- Clinical Trials: TRUST, CONNECT, IN-TIME
+
+---
+
+## 🧑‍💻 Author
+
+**[Snigdha Datta]**  
+Cloud Facilitator @ Google Developer Student Club  
+B.Tech, Computer Science and Engineering  
+
+---
 
